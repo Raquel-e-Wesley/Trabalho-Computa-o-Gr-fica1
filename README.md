@@ -1,1 +1,1 @@
-# Trabalho-Computa-o-Gr-fica1
+# Trabalho de Computacao Grafica
