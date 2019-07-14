@@ -10,9 +10,9 @@ A implementação das funções requeridas foi feita utilizando-se da linguagem 
 
 ## Fundamentação Teórica
 É necessário entender que a disposição dos pixels no monitor difere da memória. Enquanto que no primeiro considera-se um espaço bidimensional (largura e altura), no segundo eles estão dispostos de forma linear no Color Buffer. Dessa Forma, tais diferenças devem ser levadas em consideração no acionamento dos pixels.
-Além disso, o padrão RGBA foi utilizado nesse trabalho. Portanto, cada pixel é formado por 4 componentes de cor sendo: R para vermelho (RED), G para verde (GREEN), B para azul (BLUE) e A para o alfa (ALPHA). As imagens a seguir ilustram o que foi explicado.
+Além disso, o padrão RGBA foi utilizado nesse trabalho. Portanto, cada pixel é formado por 4 componentes de cor sendo: R para vermelho (RED), G para verde (GREEN), B para azul (BLUE) e A para o alfa (ALPHA). As imagens a seguir ilustram o que foi explicado. 
 
- 
+<omg src = {1.png};
 
 ## Rasterização de Pontos
 Para implementar a função de desenhar Pontos na tela putPixel(), foi utilizado o framework disponibilizado pelo professor, o qual contém um ponteiro chamado FBPtr que aponta para o início da região do framebuffer e manipulando o mesmo foi possível implementar a função PutPixel() . Essa função rasteriza um ponto na memória de vídeo recebendo como parâmetro o objeto da classe Vertex, que possui a posição (x,y) dele na tela e sua cor (RGBA). A figura abaixo mostra três pontos desenhados na tela usando essa função. 
